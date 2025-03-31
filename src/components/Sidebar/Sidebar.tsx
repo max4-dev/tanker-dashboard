@@ -1,4 +1,5 @@
 import cn from "classnames";
+import tankerImage from "../../assets/images/tanker-logo.png";
 
 import styles from "./Sidebar.module.css";
 import { Button } from "../Button/Button";
@@ -6,9 +7,7 @@ import { Button } from "../Button/Button";
 export const Sidebar = ({ className }: { className?: string }) => {
   return (
     <nav className={cn(styles.nav, className)}>
-      {/* <Title tag="h2" color="white" size="l">
-        Теплогаз
-      </Title> */}
+      <img className={styles.logo} src={tankerImage} />
       <Button
         className={cn(styles.menuItem, styles.active)}
         appearance="ghost"

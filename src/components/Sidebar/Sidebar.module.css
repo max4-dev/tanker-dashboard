@@ -67,3 +67,10 @@
   flex-direction: column;
   gap: 10px;
 }
+
+.logo {
+  height: 90px;
+  width: 120px;
+  filter: invert(1);
+  margin-bottom: 20px;
+}
