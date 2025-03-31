@@ -1,0 +1,140 @@
+:root {
+  --gray-100: #f8f9fa;
+	--gray-200: #e9ecef;
+	--gray-300: #dee2e6;
+	--gray-400: #ced4da;
+	--gray-500: #adb5bd;
+	--gray-600: #6c757d;
+	--gray-700: #495057;
+	--gray-800: #343a40;
+	--gray-900: #212529;
+	--gray-000: #fff;
+	--gray-1000: #000;
+	--blue-100: #cbe4fe;
+	--blue-200: #98c6fe;
+	--blue-300: #65a5fe;
+	--blue-400: #3f87fd;
+	--blue-500: #0057fc;
+	--blue-600: #0043d8;
+	--blue-700: #0031b5;
+	--blue-800: #002292;
+	--blue-900: #001878;
+	--red-100: #ffe0d2;
+	--red-200: #ffbaa5;
+	--red-300: #ff8c78;
+	--red-400: #ff6157;
+	--red-500: #ff1f25;
+	--red-600: #db162d;
+	--red-700: #b70f31;
+	--red-800: #930932;
+	--red-900: #7a0532;
+	--green-100: #eafbd4;
+	--green-200: #d2f8aa;
+	--green-300: #adea7b;
+	--green-400: #87d557;
+	--green-500: #56ba28;
+	--green-600: #3d9f1d;
+	--green-700: #298514;
+	--green-800: #176b0c;
+	--green-900: #0b5907;
+	--orange-100: #fff0d1;
+	--orange-200: #ffdda3;
+	--orange-300: #ffc575;
+	--orange-400: #ffae53;
+	--orange-500: #ff881a;
+	--orange-600: #db6813;
+	--orange-700: #b74d0d;
+	--orange-800: #933508;
+	--orange-900: #7a2504;
+	--electric-blue-100: #cbfef6;
+	--electric-blue-200: #98fef5;
+	--electric-blue-300: #65fcfb;
+	--electric-blue-400: #3eeefa;
+	--electric-blue-500: #00d4f8;
+	--electric-blue-600: #00a5d5;
+	--electric-blue-700: #007cb2;
+	--electric-blue-800: #00598f;
+	--electric-blue-900: #004077;
+  --black: #000000;
+  --white: #ffffff;
+  --neutral-100: var(--gray-100);
+  --neutral-200: var(--gray-200);
+  --neutral-300: var(--gray-300);
+  --neutral-400: var(--gray-400);
+	--neutral-500: var(--gray-500);
+	--neutral-600: var(--gray-600);
+	--neutral-700: var(--gray-700);
+	--neutral-800: var(--gray-800);
+	--neutral-900: var(--gray-900);
+  --bg-modal: #292929b2;
+  --blue: #0057fc;
+  --red: #ff1f25;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul,
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+body {
+  font-family: sans, sans-serif;
+}
